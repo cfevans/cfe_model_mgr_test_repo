@@ -5,7 +5,7 @@
     "node": "14.x"
   },
   "dependencies": {
-    "@cfevans/cfe-model-manager": "^0.1.20",
+    "@cfevans/cfe-model-manager": "^0.3.1",
     "@cfevans/cfe-react": "github:cfevans/cfe-react#july_testing_production_build",
     "@handlebars/allow-prototype-access": "^1.0.5",
     "@reduxjs/toolkit": "^1.6.0",
@@ -33,7 +33,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "react:start": "react-scripts start",
+    "react:start": "set PORT=8000 && react-scripts start",
     "react:build": "react-scripts build",
     "server:start": "nodemon server/app.js"
   },

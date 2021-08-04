@@ -24,14 +24,10 @@ const App = ()=>(
       </Nav>
       </Navbar>
       <Switch>
-<<<<<<< HEAD
         {/* <Route path='/users' component={UserListing} /> */}
-        <Route path='/permissions' component={PermissionListing} exact/>
+        <Route path='/permissions/list' component={PermissionListing} exact/>
         <Route path='/permissions/details/:_id' component={PermissionsDetails} exact/>
-=======
-        <Route path='/users' component={UserListing} />
-        <Route path='/permissions' component={PermissionRouter}/>
->>>>>>> df24b54201ed05ee683b2a5e1af8d15bf7101649
+
       </Switch>
     </BrowserRouter>
   </Container>

@@ -16,11 +16,11 @@ const storeDefinition = [
     base_url: base_url + '/users',
     reducer_type: 'listing',
   },
-  {
-    sliceName: 'logged_user',
-    base_url: base_url + '/users',
-    reducer_type: 'header',
-  },
+  // {
+  //   sliceName: 'user',
+  //   base_url: base_url + '/users',
+  //   reducer_type: 'header',
+  // },
   {
     sliceName: 'permissions',
     base_url: base_url.replace('users', 'permissions') + '/permissions',

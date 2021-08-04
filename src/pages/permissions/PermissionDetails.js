@@ -1,11 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import {useLocation, useParams, useHistory} from 'react-router-dom'
-<<<<<<< HEAD
-
-=======
-import styled from 'styled-components';
->>>>>>> df24b54201ed05ee683b2a5e1af8d15bf7101649
 
 import {FormCardState, ReactTable} from '@cfevans/cfe-react';
 import {slice} from '../../rtkStore';

@@ -60,11 +60,7 @@ export default function PermissionListing() {
                 {
                   Header: '',
                   accessor: '_id',
-<<<<<<< HEAD
                   content_type: 'navlink', 
-=======
-                  content_type: 'navlink', //Use Navlink in Production
->>>>>>> df24b54201ed05ee683b2a5e1af8d15bf7101649
                   base_url_redirect: '/permissions/details/:_id',
                   width: 20
                 },
